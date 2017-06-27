@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/proxychains-ng
 	SECTION:=net
 	CATEGORY:=Network
-	TITLE:=ProxyChains
+	TITLE:=ProxyChains New Generation
 	DEPENDS:=+libpthread
 	SUBMENU:=Web Servers/Proxies
 endef
