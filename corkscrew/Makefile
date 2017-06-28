@@ -11,9 +11,11 @@ PKG_NAME:=corkscrew
 PKG_VERSION:=2.0
 PKG_RELEASE:=1
 
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_VERSION:=HEAD
+PKG_SOURCE_URL:=https://github.com/ahmadrasyidsalim/corkscrew.git
+PKG_SOURCE_SUBDIR:=$(PKG_NAME)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=http://www.agroman.net/corkscrew/
-PKG_MD5SUM:=35df77e7f0e59c0ec4f80313be52c10a
 
 include $(INCLUDE_DIR)/package.mk
 
