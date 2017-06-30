@@ -12,11 +12,9 @@ PKG_NAME:=openvpn
 PKG_VERSION:=2.3.2
 PKG_RELEASE=1
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=HEAD
-PKG_SOURCE_URL:=https://github.com/ahmadrasyidsalim/openvpn.git
-PKG_SOURCE_SUBDIR:=$(PKG_NAME)
+PKG_SOURCE_URL:=http://swupdate.openvpn.net/community/releases
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_MD5SUM:=06e5f93dbf13f2c19647ca15ffc23ac1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(BUILD_VARIANT)/$(PKG_NAME)-$(PKG_VERSION)
 
